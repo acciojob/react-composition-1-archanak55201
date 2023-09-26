@@ -1,9 +1,10 @@
 
 import React, { useState } from "react";
 import './../styles/App.css';
+import Tabs from "./Tabs";
 
 const App = () => {
-  const [tab,setTab]=useState("Tab 1");
+  const [tabs,setTab]=useState("Tab 1");
   return (
     <div>
         {/* Do not remove the main div */}
@@ -15,7 +16,7 @@ const App = () => {
         </ul>
 
         <div>
-          This is the content for {tab}
+          This is the content for <Tabs tabs={tabs}/>
         </div>
     </div>
   )
