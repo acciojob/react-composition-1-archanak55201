@@ -11,9 +11,7 @@ const App = () => {
 
         <ul>
           <li><span onClick={()=>{setTab("Tab 1")}}>Tab 1</span></li>
-          
           <li><span onClick={()=>{setTab("Tab 2")}}>Tab 2</span></li>
-
           <li><span onClick={()=>{setTab("Tab 3")}}>Tab 3</span></li>
         </ul>
 
