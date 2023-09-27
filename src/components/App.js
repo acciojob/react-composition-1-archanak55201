@@ -10,9 +10,9 @@ const App = () => {
         {/* Do not remove the main div */}
 
         <ul>
-          <li><span onClick={()=>{setTab("Tab 1")}}>Tab 1</span></li>
-          <li><span onClick={()=>{setTab("Tab 2")}}>Tab 2</span></li>
-          <li><span onClick={()=>{setTab("Tab 3")}}>Tab 3</span></li>
+          <li><span onClick={()=>{setTab("This is the content for Tab 1.")}}>Tab 1</span></li>
+          <li><span onClick={()=>{setTab("This is the content for Tab 2.")}}>Tab 2</span></li>
+          <li><span onClick={()=>{setTab("This is the content for Tab 3.")}}>Tab 3</span></li>
         </ul>
 
         <div>
