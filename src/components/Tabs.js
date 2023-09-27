@@ -3,9 +3,7 @@ import './../styles/App.css';
 const Tabs =({tabs})=>{
     return (
         <span>
-        
             {tabs}
-            
         </span>
     )
 }
